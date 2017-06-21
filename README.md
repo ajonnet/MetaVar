@@ -14,16 +14,16 @@ With the use of MetaVar we can do it as follows
 
 
 ## Class Attributes
-- Val : Current Value
-- MinVal : ValueSet minimum value
-- MaxVal : ValueSet maximum value
-- StepVal : value by which increment or decrement is suppose to happen
-- ValDesc : Description of ValueSet
+- **Val** : Current Value
+- **MinVal** : ValueSet minimum value
+- **MaxVal** : ValueSet maximum value
+- **StepVal** : value by which increment or decrement is suppose to happen
+- **ValDesc** : Description of ValueSet
 
 ## Class Methods
-- linkVar(int *var) :  
+- **linkVar(int \*var)** :  
 Stores the reference of provided variable and keep it in sync with current value of ValueSet.
-- nextVal() :  
+- **nextVal()** :  
 Increment current value to next value by adding step value. If maximum value has reached, the it will looped back to minimum Value.
-- prevVal() :  
+- **prevVal()** :  
 Decrement current value to next value by subtracting step value. If minimum value has reached, the it will looped back to maximum Value.
